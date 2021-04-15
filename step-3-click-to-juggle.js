@@ -7,7 +7,6 @@ const ctx = canvas.getContext("2d");
 
 class Ball {
   constructor() {
-    this.draw = this.draw.bind(this);
     this.x = Math.random() * canvas.width;
     this.y = 50;
     this.velocity = 1;
