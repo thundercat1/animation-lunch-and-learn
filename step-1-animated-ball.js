@@ -5,7 +5,6 @@ const ctx = canvas.getContext("2d");
 
 class Ball {
   constructor() {
-    this.draw = this.draw.bind(this);
     this.x = 50;
     this.y = 50;
     this.velocity = 0;
